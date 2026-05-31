@@ -230,8 +230,8 @@ export default function Portfolio() {
                       borderRadius: 8, border: '1px solid #e2e8f0',
                       transition: 'all 0.25s ease'
                     }}
-                    onMouseEnter={(e) => { e.target.style.background = '#2563eb'; e.target.style.color = '#fff'; e.target.style.borderColor = '#2563eb'; }}
-                    onMouseLeave={(e) => { e.target.style.background = '#f1f5f9'; e.target.style.color = '#475569'; e.target.style.borderColor = '#e2e8f0'; }}
+                      onMouseEnter={(e) => { e.target.style.background = '#2563eb'; e.target.style.color = '#fff'; e.target.style.borderColor = '#2563eb'; }}
+                      onMouseLeave={(e) => { e.target.style.background = '#f1f5f9'; e.target.style.color = '#475569'; e.target.style.borderColor = '#e2e8f0'; }}
                     >{skill}</span>
                   ))}
                 </div>
@@ -398,7 +398,7 @@ export default function Portfolio() {
               <a href="https://github.com/Aminaelphil" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 <Github size={18} /> GitHub
               </a>
-              <a href="https://www.linkedin.com/in/amina-elphil" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              <a href="https://www.linkedin.com/in/amina-elphil-9aa695254/" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 <Linkedin size={18} /> LinkedIn
               </a>
             </div>
